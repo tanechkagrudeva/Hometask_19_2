@@ -1,0 +1,143 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+--- a/.idea/vcs.xml	(revision 91b945d2fb48714a97bb31a27f06e75547fb8a14)
++++ /dev/null	(revision 91b945d2fb48714a97bb31a27f06e75547fb8a14)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+--- a/.idea/misc.xml	(revision 91b945d2fb48714a97bb31a27f06e75547fb8a14)
++++ /dev/null	(revision 91b945d2fb48714a97bb31a27f06e75547fb8a14)
+@@ -1,7 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 virtualenv at C:\Users\Татьяна\AppData\Roaming\pypoetry\venv" project-jdk-type="Python SDK" />
+-  <component name="PyCharmProfessionalAdvertiser">
+-    <option name="shown" value="true" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/profiles_settings.xml
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+deleted file mode 100644
+--- a/.idea/inspectionProfiles/profiles_settings.xml	(revision 91b945d2fb48714a97bb31a27f06e75547fb8a14)
++++ /dev/null	(revision 91b945d2fb48714a97bb31a27f06e75547fb8a14)
+@@ -1,6 +0,0 @@
+-<component name="InspectionProjectProfileManager">
+-  <settings>
+-    <option name="USE_PROJECT_PROFILE" value="false" />
+-    <version value="1.0" />
+-  </settings>
+-</component>
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+deleted file mode 100644
+--- a/.idea/encodings.xml	(revision 91b945d2fb48714a97bb31a27f06e75547fb8a14)
++++ /dev/null	(revision 91b945d2fb48714a97bb31a27f06e75547fb8a14)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Encoding">
+-    <file url="PROJECT" charset="UTF-8" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+deleted file mode 100644
+--- a/.idea/inspectionProfiles/Project_Default.xml	(revision 91b945d2fb48714a97bb31a27f06e75547fb8a14)
++++ /dev/null	(revision 91b945d2fb48714a97bb31a27f06e75547fb8a14)
+@@ -1,35 +0,0 @@
+-<component name="InspectionProjectProfileManager">
+-  <profile version="1.0">
+-    <option name="myName" value="Project Default" />
+-    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+-      <option name="ignoredPackages">
+-        <value>
+-          <list size="8">
+-            <item index="0" class="java.lang.String" itemvalue="coverage" />
+-            <item index="1" class="java.lang.String" itemvalue="pytest" />
+-            <item index="2" class="java.lang.String" itemvalue="pytest-cov" />
+-            <item index="3" class="java.lang.String" itemvalue="colorama" />
+-            <item index="4" class="java.lang.String" itemvalue="iniconfig" />
+-            <item index="5" class="java.lang.String" itemvalue="pluggy" />
+-            <item index="6" class="java.lang.String" itemvalue="packaging" />
+-            <item index="7" class="java.lang.String" itemvalue="attrs" />
+-          </list>
+-        </value>
+-      </option>
+-    </inspection_tool>
+-    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+-      <option name="ignoredErrors">
+-        <list>
+-          <option value="N806" />
+-        </list>
+-      </option>
+-    </inspection_tool>
+-    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+-      <option name="ignoredIdentifiers">
+-        <list>
+-          <option value="pytest_proj.tests.test_arrs.utils" />
+-        </list>
+-      </option>
+-    </inspection_tool>
+-  </profile>
+-</component>
+\ No newline at end of file
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision 91b945d2fb48714a97bb31a27f06e75547fb8a14)
++++ /dev/null	(revision 91b945d2fb48714a97bb31a27f06e75547fb8a14)
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: catalog/templates/catalog/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <title>Skystore</title>\r\n    <link href=\"/static/css/bootstrap.min.css\" rel=\"stylesheet\">\r\n</head>\r\n<body>\r\n<div class=\"d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow\">\r\n    <h5 class=\"my-0 mr-md-auto font-weight-normal\">Skystore</h5>\r\n\r\n    <nav class=\"ms-5\">\r\n        <a class=\"p-2 btn btn-outline-primary\" href=\"/\">Каталог</a>\r\n        <a class=\"p-2 btn btn-outline-primary\" href=\"/contacts/\">Контакты</a>\r\n    </nav>\r\n</div>\r\n\r\n<div class=\"pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center\">\r\n    <h1 class=\"display-4\">Skystore</h1>\r\n    <p class=\"lead\">Skystore - это отличный вариант хранения ваших плагинов и примеров кода, который вы бы хотели\r\n        продать</p>\r\n</div>\r\n\r\n<div class=\"container\">\r\n    <div class=\"row text-center\">\r\n        <div class=\"col-3\">\r\n            <div class=\"card mb-4 box-shadow\">\r\n                <div class=\"card-header\">\r\n                    <h4 class=\"my-0 font-weight-normal\">Удобный сервис рассылок</h4>\r\n                </div>\r\n                <div class=\"card-body\">\r\n                    <h1 class=\"card-title pricing-card-title\">$ 140</h1>\r\n                    <ul class=\"list-unstyled mt-3 mb-4 text-start m-3\">\r\n                        <li>- Неограниченная лицензия</li>\r\n                        <li>- Поддержка</li>\r\n                        <li>- Установка на сервер</li>\r\n                        <li>- Получение обновлений</li>\r\n                    </ul>\r\n                    <button type=\"button\" class=\"btn btn-lg btn-block btn-outline-primary\">Купить</button>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <footer class=\"pt-4 my-md-5 pt-md-5 border-top\">\r\n        <div class=\"row\">\r\n            <div class=\"col-12 col-md\">\r\n                SkyStore\r\n                <small class=\"d-block mb-3 text-muted\">&copy; 2023</small>\r\n            </div>\r\n            <div class=\"col-6 col-md\">\r\n                <h5>Категории</h5>\r\n                <ul class=\"list-unstyled text-small\">\r\n                    <li><a class=\"text-muted\" href=\"#\">Рассылки</a></li>\r\n                    <li><a class=\"text-muted\" href=\"#\">Телеграм боты</a></li>\r\n                    <li><a class=\"text-muted\" href=\"#\">Полезные утилиты</a></li>\r\n                    <li><a class=\"text-muted\" href=\"#\">Веб-приложения</a></li>\r\n                    <li><a class=\"text-muted\" href=\"#\">Микросервисы</a></li>\r\n                </ul>\r\n            </div>\r\n            <div class=\"col-6 col-md\">\r\n                <h5>Дополнительно</h5>\r\n                <ul class=\"list-unstyled text-small\">\r\n                    <li><a class=\"text-muted\" href=\"#\">Мы пишем</a></li>\r\n                </ul>\r\n            </div>\r\n            <div class=\"col-6 col-md\">\r\n                <h5>О нас</h5>\r\n                <ul class=\"list-unstyled text-small\">\r\n                    <li><a class=\"text-muted\" href=\"/contacts/\">Контакты</a></li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </footer>\r\n</div>\r\n\r\n<script src=\"/static/js/bootstrap.bundle.min.js\"></script>\r\n</body>\r\n</html>\r\n\r\n\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <title>Skystore</title>\r\n    <link href=\"/static/css/bootstrap.min.css\" rel=\"stylesheet\">\r\n</head>\r\n<body>\r\n<div class=\"d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow\">\r\n    <h5 class=\"my-0 mr-md-auto font-weight-normal\">Skystore</h5>\r\n    <nav class=\"ms-5\">\r\n        <a class=\"p-2 btn btn-outline-primary\" href=\"/\">Каталог</a>\r\n        <a class=\"p-2 btn btn-outline-primary\" href=\"/contacts/\">Контакты</a>\r\n    </nav>\r\n</div>\r\n\r\n<div class=\"pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center\">\r\n    <h1 class=\"display-4\">Контакты</h1>\r\n</div>\r\n\r\n<div class=\"container\">\r\n    <div class=\"row text-start\">\r\n        <div class=\"col-lg-9 col-md-6 col-sm-12\">\r\n            <div class=\"card mb-4 box-shadow\">\r\n                <div class=\"card-body\">\r\n                    <table class=\"table table-striped\">\r\n                        <tr>\r\n                            <td class=\"w-25\">Страна</td>\r\n                            <td>USA</td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td class=\"w-25\">ИНН</td>\r\n                            <td>91-1144442</td>\r\n                        </tr>\r\n                        <tr>\r\n                            <td class=\"w-25\">Адрес</td>\r\n                            <td>Redmond,WA,98052-6399</td>\r\n                        </tr>\r\n                    </table>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-lg-3 col-md-6 col-sm-12\">\r\n            <div class=\"card mb-4 box-shadow\">\r\n                <div class=\"card-header\">\r\n                    <h4 class=\"my-0 font-weight-normal\">Свяжитесь с нами</h4>\r\n\r\n                </div>\r\n                <div class=\"card-body\">\r\n\r\n                    <form method=\"post\" action=\"\" class=\"form-floating\">\r\n                                {% csrn_token %}\r\n                        <div class=\"mb-3\">\r\n                            <label for=\"name\">Имя</label>\r\n                            <input type=\"text\" name=\"name\" class=\"form-control\" id=\"name\"\r\n                                   placeholder=\"Ваше имя\" required>\r\n                        </div>\r\n                        <div class=\"mb-3\">\r\n                            <label for=\"phone\">Телефон</label>\r\n                            <input type=\"text\" name=\"phone\" class=\"form-control\" id=\"phone\"\r\n                                   placeholder=\"Контактный телефон\" required>\r\n                        </div>\r\n                        <div class=\"mb-3\">\r\n                            <label for=\"message\">Сообщение</label>\r\n                            <textarea type=\"text\" name=\"message\" class=\"form-control\" id=\"message\"\r\n                                      placeholder=\"Сообщение\" required></textarea>\r\n                        </div>\r\n                    </form>\r\n                    <button type=\"submit\" class=\"btn btn-lg btn-block btn-outline-primary\">Отправить</button>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <footer class=\"pt-4 my-md-5 pt-md-5 border-top\">\r\n        <div class=\"row\">\r\n            <div class=\"col-12 col-md\">\r\n                SkyStore\r\n                <small class=\"d-block mb-3 text-muted\">&copy; 2023</small>\r\n            </div>\r\n            <div class=\"col-6 col-md\">\r\n                <h5>Категории</h5>\r\n                <ul class=\"list-unstyled text-small\">\r\n                    <li><a class=\"text-muted\" href=\"#\">Рассылки</a></li>\r\n                    <li><a class=\"text-muted\" href=\"#\">Телеграм боты</a></li>\r\n                    <li><a class=\"text-muted\" href=\"#\">Полезные утилиты</a></li>\r\n                    <li><a class=\"text-muted\" href=\"#\">Веб-приложения</a></li>\r\n                    <li><a class=\"text-muted\" href=\"#\">Микросервисы</a></li>\r\n                </ul>\r\n            </div>\r\n            <div class=\"col-6 col-md\">\r\n                <h5>Дополнительно</h5>\r\n                <ul class=\"list-unstyled text-small\">\r\n                    <li><a class=\"text-muted\" href=\"#\">Мы пишем</a></li>\r\n                </ul>\r\n            </div>\r\n            <div class=\"col-6 col-md\">\r\n                <h5>О нас</h5>\r\n                <ul class=\"list-unstyled text-small\">\r\n                    <li><a class=\"text-muted\" href=\"/contacts/\">Контакты</a></li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </footer>\r\n</div>\r\n\r\n<script src=\"/static/js/bootstrap.bundle.min.js\"></script>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/catalog/templates/catalog/index.html b/catalog/templates/catalog/index.html
+--- a/catalog/templates/catalog/index.html	(revision 91b945d2fb48714a97bb31a27f06e75547fb8a14)
++++ b/catalog/templates/catalog/index.html	(date 1687115753665)
+@@ -131,7 +131,7 @@
+                 <div class="card-body">
+ 
+                     <form method="post" action="" class="form-floating">
+-                                {% csrn_token %}
++                                {% csrf_token %}
+                         <div class="mb-3">
+                             <label for="name">Имя</label>
+                             <input type="text" name="name" class="form-control" id="name"
+diff --git a/static/css/bootstrap.min.css b/static/css/bootstrap.min.css
+new file mode 100644
