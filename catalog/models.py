@@ -22,6 +22,7 @@ class Product(models.Model):
         ordering = ('name',)
 
 class Category(models.Model):
+    objects = None
     name = models.CharField(max_length=50, verbose_name='Наименование')
     description = models.TextField(verbose_name='Описание')
 
