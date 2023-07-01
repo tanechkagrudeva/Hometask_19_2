@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from catalog.models import Product
 
 
 def index(request):
@@ -15,4 +16,11 @@ def contact(request):
     return render(request, 'catalog/contact.html')
 
 
+def product(request):
+    product_list = Product.objects.all()
+    context = {
+        'object_list': product_list
+    }
+
+    return render(request, 'catalog/product.html', context)
 
