@@ -13,13 +13,21 @@ def contact(request):
         message = request.POST.get('message')
         print(f'{name}\n{email}\n{message}')
 
-    return render(request, 'catalog/contact.html')
+    contex = {
+        'title': "Контакты",
+
+    }
+
+
+    return render(request, 'catalog/contact.html', contex)
 
 
 def product(request):
     product_list = Product.objects.all()
     context = {
-        'object_list': product_list
+        'object_list': product_list,
+        'title': 'Главная'
+
     }
 
     return render(request, 'catalog/product.html', context)
