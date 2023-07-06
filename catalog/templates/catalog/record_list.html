@@ -1,0 +1,35 @@
+{% extends "catalog/base.html" %}
+{% block title %}Запись{% endblock title %}
+{% block header %}Запись{% endblock header %}
+{% block content %}
+        <p>Список записей.</p>
+    <div class="col-12 mb-5">
+        <a class="btn btn-outline-primary" href="{% url 'catalog:create_record' %}">Добавить запись</a>
+    </div>
+        <div class="row">
+            {% if object_list %}
+            {% for object in object_list %}
+              <div class="col-md-3">
+                <div class="card" >
+                    {% if object.preview%}
+                  <img src="record/{{ object.preview}}" alt="{{ object.title }}">
+                    {% endif %}
+                  <div class="card-body">
+                      <a href="{% url 'catalog:view_record' object.pk %}"><h5 class="card-title">{{ object.title }}</h5></a>
+                      <p class="card-text">{{ object.content|truncatechars:100}}</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                              <a href="{% url 'catalog:view_record' object.pk %}" class="btn btn-sm btn-outline-secondary">Просмотр</a>
+                              <a href="{% url 'catalog:edit_record' object.pk %}" class="btn btn-sm btn-outline-secondary">Редактировать</a>
+                              <a href="{% url 'catalog:delete_record' object.pk %}" class="btn btn-sm btn-danger">Удалить</a>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+            {% else %}
+                <p>Нет ни одной записи</p>
+            {% endif %}
+        </div>
+{% endblock content %}
