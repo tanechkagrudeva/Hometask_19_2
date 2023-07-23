@@ -44,3 +44,19 @@ class Record(models.Model):
     is_published = models.BooleanField(default=True, verbose_name='Опубликовано')
     views_count = models.IntegerField(default=0,verbose_name='Просмотры' )
 
+
+class Version(models.Model):
+    objects = None
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, verbose_name='Товар')
+    number_version = models.IntegerField(verbose_name='Номер версии')
+    name_version = models.CharField(max_length=100, verbose_name='Название версии')
+    is_current_version = (models.BooleanField(verbose_name='Признак текущей версии'))
+
+    def __str__(self):
+        return f'{self.name_version}, {self.number_version}'
+
+    class Meta:
+        verbose_name = 'Версия'
+        verbose_name_plural = 'Версии'
+        ordering = ('number_version',)
+
