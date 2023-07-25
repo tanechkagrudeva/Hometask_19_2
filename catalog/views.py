@@ -77,9 +77,9 @@ class ProductUpdateView(UpdateView):
 
     def form_valid(self, form):
         if form.is_valid():
-            new_article = form.save()
-            new_article.slug = slugify(new_article.title)
-            new_article.save()
+            new_id = form.save()
+            new_id.slug = slugify(new_id.title)
+            new_id.save()
 
         return super().form_valid(form)
 
