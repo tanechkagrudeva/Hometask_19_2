@@ -8,11 +8,11 @@ class ProductForm(forms.ModelForm):
         fields = ('name', 'description', 'price', 'preview')
 
         def clean_name(self):
-            name = self.cleaned_data['name']
-            if any(word in name.lower() for word in
+            clean_name = self.cleaned_data['name']
+            if any(word in clean_name.lower() for word in
                    ['казино', 'криптовалюта', 'крипта', 'биржа', 'дешево', 'бесплатно', 'обман', 'полиция', 'радар']):
                 raise forms.ValidationError('Название продукта содержит запрещенные слова')
-            return name
+            return clean_name
 
         def __init__(self, *args, **kwargs):
             super().__init__(*args, **kwargs)
