@@ -34,8 +34,8 @@ class ProductDetailView(DetailView):
 
 class ProductCreateView(CreateView):
     model = Record
-    fields = ('title', 'content',)
-    form_class = ProductForm
+    #fields = ('title', 'content',)
+    #form_class = ProductForm
     success_url = reverse_lazy('catalog:list')
 
 
