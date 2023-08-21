@@ -1,6 +1,7 @@
 from django.db import models
 
 
+
 NULLABLE = {'blank': True, 'null': True}
 
 
@@ -42,7 +43,7 @@ class Record(models.Model):
     preview = models.ImageField(upload_to='records/', verbose_name='Превью', **NULLABLE)
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Создано')
     is_published = models.BooleanField(default=True, verbose_name='Опубликовано')
-    views_count = models.IntegerField(default=0,verbose_name='Просмотры' )
+    views_count = models.IntegerField(default=0)
 
 
 class Version(models.Model):
